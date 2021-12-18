@@ -1,7 +1,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import MRutes from './Components/MRutes';
 import './index.css';
+import MRutes from './Components/MRutes';
 
 ReactDOM.render(
   <React.StrictMode>

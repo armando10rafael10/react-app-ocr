@@ -1,0 +1,94 @@
+.Main{
+  /* background-color: rgb(154, 224, 14); */
+  display:flex;
+  flex-direction: row;
+  height: 100vh;
+  width: 100vw;
+}
+.Main .Main-lateral{
+  background-color: rgba(6, 17, 37, 0.87);
+  width:22%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+}
+.Main .Main-lateral .Main-element{
+  height: 100%;
+  margin: 8%;
+  display: flex;
+  font-size: 12px;
+}
+.Main .Main-lateral .Main-element h1{
+  font-size: 12px;
+  width: 50%;
+  color:rgb(166, 165, 172);
+  text-transform: capitalize;
+}
+.Main .Main-lateral .Main-element select{
+  width: 50%;
+  font-size: 12px;
+}
+.Main .Main-lateral .Main-element input{
+  width: 20%;
+  font-size: 12px;
+}
+
+.Main .Main-Contain{
+  background-color: rgba(27, 34, 48, 0.87);
+  width:78%;
+  height: 100%;
+  display: flex;
+}
+.Main .Main-Contain .view-uploaded,
+.Main .Main-Contain .view-downloaded{
+  width:50%;
+  text-align: center;
+  padding: 2%;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  /* justify-content: center; */
+}
+.Main .Main-Contain .view-uploaded h1,
+.Main .Main-Contain .view-downloaded h1{
+  font-size: 20px;
+  width: 100%;
+  color:rgb(82, 224, 224);
+  height: 10%;
+}
+.Main .Main-Contain .view-uploaded img{
+  width:70%;
+  height: 45%;
+}
+.Main .Main-Contain .view-uploaded .selectionFile{
+  width: 100%;
+  color:rgb(82, 224, 224);
+  height: 10%;
+}
+.Main .Main-Contain .view-uploaded .switch{
+  color:rgb(82, 224, 224);
+  width: 100%;
+  display: inline-block;
+  height: 7%;
+}
+.Main .Main-Contain .view-uploaded .switch label[htmlFor="language-Switch"]{
+  margin-right: 12px;
+}
+.Main .Main-Contain .view-uploaded button{
+  width: 35%;
+  height: 10%;
+}
+.Main .Main-Contain .view-uploaded .Cprogress{
+  height: 18%;
+}
+.Main .Main-Contain .view-downloaded #textBox_message{
+  height: 45%;
+  width: 80%;
+  border: 2px solid rgb(27, 56, 153);
+  overflow-y: scroll;
+}
+.Main .Main-Contain .view-downloaded button{
+  width: 20%;
+  height: 7%;
+}

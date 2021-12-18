@@ -1,0 +1,119 @@
+@media screen and (min-width: 320px) and (max-width: 620px) { 
+    .Main{
+        width: 100vw;
+        height: 100vh;
+        display: flex;
+        flex-direction: column;
+    }
+    .Main .Main-lateral{  
+        width: 100%;
+        height: 100%;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        background-color: rgba(6, 17, 37, 0.87);
+    }
+    .Main .Main-lateral .Main-element{
+        height: 10%;
+        width: 33%;
+        font-size: 12px;
+        margin: 5px 5%;
+        display: flex;
+    }
+    .Main .Main-lateral .Main-element h1{
+        font-size: 8px;
+        width: 50%;
+        color:rgb(166, 165, 172);
+        text-transform: capitalize;
+    }
+    .Main .Main-lateral .Main-element select{
+        width: 50%;
+        font-size: 8px;
+    }
+    .Main .Main-lateral .Main-element input{
+        width: 20%;
+        font-size: 8px;
+    }
+
+
+    .Main .Main-Contain{
+        background-color: rgba(27, 34, 48, 0.87);
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        height: 100%;
+        /* display: inline-block; */
+    }
+    .Main .Main-Contain .view-uploaded{
+        width: 100%;
+        height: 100%;
+        display: flex;
+        padding: 0px 0px;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+    }
+    .Main .Main-Contain .view-uploaded h1{
+        height: 5%;
+        width: 100%;
+        font-size: 14px;
+        margin-top: 4px;
+        color:rgb(82, 224, 224);
+    }
+    .Main .Main-Contain .view-uploaded img{
+        height: 45%;
+        width: 50%;
+    }
+    .Main .Main-Contain .view-uploaded .selectionFile{
+        height: 10%;
+        width: 80%;
+        color:rgb(82, 224, 224);
+        font-size: 10px;
+    }
+    .Main .Main-Contain .view-uploaded .switch{
+        height: 7%;
+        width: 80%;
+        display: inline-block;
+        color:rgb(82, 224, 224);
+        font-size: 10px;
+    }
+    .Main .Main-Contain .view-uploaded .switch label[htmlFor="language-Switch"]{
+        margin-right: 12px;
+    }
+    .Main .Main-Contain .view-uploaded button{
+        width: 40%;
+        height: 10%;
+        font-size: 10px;
+    }
+    .Main .Main-Contain .view-uploaded .Cprogress{
+        height: 23%;
+        font-size: 7px;
+    }
+
+    .Main .Main-Contain .view-downloaded{
+        width: 100%;
+        height: 100%;
+        text-align: center;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background-color: rgba(40, 49, 66, 0.87);
+    }
+    .Main .Main-Contain .view-downloaded h1{
+        height: 17%;
+        width: 100%;
+        font-size: 14px;
+        color:rgb(82, 224, 224);
+    }
+    .Main .Main-Contain .view-downloaded #textBox_message{
+        height: 66%;
+        width: 80%;
+        border: 2px solid rgb(27, 56, 153);
+        overflow-y: scroll;
+    }
+    .Main .Main-Contain .view-downloaded button{
+        height: 17%;
+        width: 30%;
+        font-size: 10px;
+    }
+}
